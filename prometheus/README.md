@@ -1,13 +1,13 @@
 # Prometheus
 
 * 介绍
-    * [综述](./ingroduction/overview.md)
-    * [第一步](./ingroduction/first-steps.md)
-    * [相关产品比较](./ingroduction/comparison-to-alternatives.md)
-    * [常见问题](./ingroduction/faq.md)
-    * [规划](./ingroduction/roadmap.md)
-    * [公共媒介](./ingroduction/media.md)
-    * [名次解释](./ingroduction/glossary.md)
+    * [综述](./introduction/overview.md)
+    * [第一步](./introduction/first-steps.md)
+    * [相关产品比较](./introduction/comparison-to-alternatives.md)
+    * [常见问题](./introduction/faq.md)
+    * [规划](./introduction/roadmap.md)
+    * [公共媒介](./introduction/media.md)
+    * [名次解释](./introduction/glossary.md)
 * 基础知识
     * [数据模型](./concepts/data-model.md)
     * [指标类型](./concepts/metric-types.md)
@@ -32,9 +32,9 @@
     * [客户端库](./instrumenting/client-libraries.md)
     * [编写客户端库](./instrumenting/writing-client-libraries.md)
     * [推送指标](./instrumenting/pushing-metrics.md)
-    * [导出器和集成器](./instrumenting/exporters-and-integration.md)
+    * [导出器和集成器](./instrumenting/exporters-and-integrations.md)
     * [编写导出器](./instrumenting/writing-exporters.md)
-    * [导出格式](./instrumenting/exposition-metrics.md)
+    * [导出格式](./instrumenting/exposition-formats.md)
 * 告警
     * [告警综述](./alerting/alerting-overview.md)
     * [Alertmanager](./alerting/alertmanager.md)
@@ -51,9 +51,9 @@
     * [记录规则](./best-practices/recording-rules.md)
     * [什么时候使用Pushgateway](./best-practices/when-to-use-pushgateway.md)
 * 导读
-    * [使用基于文件的发现服务发现收集目标](./guide/use-file-based-service-discovery-to-discover-scape-targets.md)
-    * [基本认证](./guide/basic-auth.md)
-    * [使用cAdvisor监控Docker容器指标](./guide/monitoring-docker-container-metrics-using-cadvisor.md)
-    * [监测Go程序](./guide/instrumenting-go-application.md)
-    * [使用NodeExporter监控Linux服务器指标](./guide/monitoring-linux-host-metrics-with-the-node-exporter.md)
-    * [TLS加密](./guide/tls-encryption.md)
+    * [使用基于文件的发现服务发现收集目标](./guides/use-file-based-service-discovery-to-discover-scrape-targets.md)
+    * [基本认证](./guides/basic-auth.md)
+    * [使用cAdvisor监控Docker容器指标](./guides/monitoring-docker-container-metrics-using-cadvisor.md)
+    * [监测Go程序](./guides/instrumenting-go-application.md)
+    * [使用NodeExporter监控Linux服务器指标](./guides/monitoring-linux-host-metrics-with-the-node-exporter.md)
+    * [TLS加密](./guides/tls-encryption.md)

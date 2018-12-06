@@ -1,59 +1,59 @@
 # Prometheus
 
 * 介绍
-    * [综述](./prometheus/ingroduction/overview.md)
-    * [第一步](./prometheus/ingroduction/first-steps.md)
-    * [相关产品比较](./prometheus/ingroduction/comparison-to-alternatives.md)
-    * [常见问题](./prometheus/ingroduction/faq.md)
-    * [规划](./prometheus/ingroduction/roadmap.md)
-    * [公共媒介](./prometheus/ingroduction/media.md)
-    * [名次解释](./prometheus/ingroduction/glossary.md)
+    * [综述](./ingroduction/overview.md)
+    * [第一步](./ingroduction/first-steps.md)
+    * [相关产品比较](./ingroduction/comparison-to-alternatives.md)
+    * [常见问题](./ingroduction/faq.md)
+    * [规划](./ingroduction/roadmap.md)
+    * [公共媒介](./ingroduction/media.md)
+    * [名次解释](./ingroduction/glossary.md)
 * 基础知识
-    * [数据模型](./prometheus/concepts/data-model.md)
-    * [指标类型](./prometheus/concepts/metric-types.md)
-    * [任务和实例](./prometheus/concepts/jobs-and-instances.md)
+    * [数据模型](./concepts/data-model.md)
+    * [指标类型](./concepts/metric-types.md)
+    * [任务和实例](./concepts/jobs-and-instances.md)
 * Prometheus
-    * [入门](./prometheus/prometheus/getting-started.md)
-    * [安装](./prometheus/prometheus/installation.md)
-    * [配置](./prometheus/prometheus/configuration.md)
-    * [查询](./prometheus/prometheus/querying.md)
-    * [存储](./prometheus/prometheus/storage.md)
-    * [集群](./prometheus/prometheus/federation.md)
-    * [迁移](./prometheus/prometheus/migration.md)
-    * [稳定API](./prometheus/prometheus/api-stability.md)
+    * [入门](./prometheus/getting-started.md)
+    * [安装](./prometheus/installation.md)
+    * [配置](./prometheus/configuration.md)
+    * [查询](./prometheus/querying.md)
+    * [存储](./prometheus/storage.md)
+    * [集群](./prometheus/federation.md)
+    * [迁移](./prometheus/migration.md)
+    * [稳定API](./prometheus/api-stability.md)
 * 可视化
-    * [表达浏览器](./prometheus/visualization/expression-browser.md)
-    * [Grafana](./prometheus/visualization/grafana.md)
-    * [控制台模板](./prometheus/visualization/console-templates.md) 
+    * [表达浏览器](./visualization/expression-browser.md)
+    * [Grafana](./visualization/grafana.md)
+    * [控制台模板](./visualization/console-templates.md) 
 * 运维
-    * [安全](./prometheus/operating/security.md)
-    * [集成](./prometheus/operating/integrations.md)
+    * [安全](./operating/security.md)
+    * [集成](./operating/integrations.md)
 * 工具
-    * [客户端库]
-    * [编写客户端库]
-    * [推送指标]
-    * [导出器和集成器]
-    * [编写导出器]
-    * [导出格式]
+    * [客户端库](./instrumenting/client-libraries.md)
+    * [编写客户端库](./instrumenting/writing-client-libraries.md)
+    * [推送指标](./instrumenting/pushing-metrics.md)
+    * [导出器和集成器](./instrumenting/exporters-and-integration.md)
+    * [编写导出器](./instrumenting/writing-exporters.md)
+    * [导出格式](./instrumenting/exposition-metrics.md)
 * 告警
-    * [告警综述]
-    * [Alertmanager]
-    * [配置]
-    * [客户端]
-    * [通知模板参考]
-    * [通知模板示例]
-* 最佳事件
-    * [指标和标签命名]
-    * [工具]
-    * [控制台和仪表盘]
-    * [直方图和总结]
-    * [告警]
-    * [记录规则]
-    * [什么时候使用Pushgateway]
+    * [告警综述](./alerting/alerting-overview.md)
+    * [Alertmanager](./alerting/alertmanager.md)
+    * [配置](./alerting/configuration.md)
+    * [客户端](./alerting/clients.md)
+    * [通知模板参考](./alerting/notification-template-reference.md)
+    * [通知模板示例](./alerting/notification-template-examples.md)
+* 最佳实践
+    * [指标和标签命名](./best-practices/metric-and-label-naming.md)
+    * [工具](./best-practices/instrumentation.md)
+    * [控制台和仪表盘](./best-practices/consoles-and-dashboards.md)
+    * [直方图和总结](./best-practices/histograms-and-sumaries.md)
+    * [告警](./best-practices/alerting.md)
+    * [记录规则](./best-practices/recording-rules.md)
+    * [什么时候使用Pushgateway](./best-practices/when-to-use-pushgateway.md)
 * 导读
-    * [使用基于文件的发现服务发现收集目标]
-    * [基本认证]
-    * [使用cAdvisor监控Docker容器指标]
-    * [监测Go程序]
-    * [使用NodeExporter监控Linux服务器指标]
-    * [TLS加密]
+    * [使用基于文件的发现服务发现收集目标](./guide/use-file-based-service-discovery-to-discover-scape-targets.md)
+    * [基本认证](./guide/basic-auth.md)
+    * [使用cAdvisor监控Docker容器指标](./guide/monitoring-docker-container-metrics-using-cadvisor.md)
+    * [监测Go程序](./guide/instrumenting-go-application.md)
+    * [使用NodeExporter监控Linux服务器指标](./guide/monitoring-linux-host-metrics-with-the-node-exporter.md)
+    * [TLS加密](./guide/tls-encryption.md)
